@@ -1,7 +1,7 @@
 # EckoEquip [Hytale ModJam 2026 Submission]
 > by JakeCCz
 
-This is the source code for the Ecko Equip Mod made for the 2026 Hytale ModJam. The theme was "Echoes of the Machine".
+This is the source code for the Ecko Equip Mod made for the 2026 Hytale ModJam. The theme was "Echoes of the Machine", participants were given a time period of 4 days to work on their submission using the theme provided. [30/01/2026 - 03/01/2026]
 
 Adds a variety of Echo Gadgets and Equipment that will prove to be extremely useful in your Hytale Adventure! This project takes the initial prompt "Echoes of the Machine" and adds a little sci-fi twist, making it extremely engaging for players. This mod was mainly tested in a Creative Flat World for accessibility purposes but is intended to be used in a more Adventure Mode setting.
 
