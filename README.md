@@ -21,3 +21,5 @@ Note: However, this does not mean that the mod will not work in Creative Mode or
 - **Ecko Blaster 9000** - A super sonicly, echo charged cannon which fires hyper-charged Echo Vibrations which combust into intense vibration energy upon impact.
 
 > *"Overall I would say this was an enjoyable ModJam, the theme was a little hard to work with but encouraged a more creative approach from me. I also had many planned features that never made the final cut due to time constraints, such as, an Ore Detector Device, Anti Gravity Boots, Companion Golem (Which communicates via echo vibrations), Custom Robot Golem Boss, and last but not least... a fucking nuke LOL" - JakeCCz, 2026*
+
+[Check out my submission here!](https://hytalemodjam.com/submissions/acdf6709-0d24-4633-8723-a3b87c4c3fce)
