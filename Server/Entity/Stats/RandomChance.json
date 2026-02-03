@@ -1,0 +1,26 @@
+{
+  "Max": 1,
+  "Shared": true,
+  "Regenerating": [
+    {
+      "Interval": 0.1,
+      "Amount": 0.1,
+      "ClampAtZero": true,
+      "RegenType": "Additive"
+    },
+    {
+      "Interval": 0.1,
+      "Amount": -1,
+      "RegenType": "Additive",
+      "ClampAtZero": true,
+      "Conditions": [
+        {
+          "Id": "Stat",
+          "Amount": 1,
+          "Comparison": "Gte",
+          "Stat": "RandomChance"
+        }
+      ]
+    }
+  ]
+}

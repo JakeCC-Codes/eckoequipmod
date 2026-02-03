@@ -1,0 +1,70 @@
+{
+  "Categories": [
+    "Items.Weapons"
+  ],
+  "TranslationProperties": {
+    "Name": "eckoequip.items.Gun_Boomerang.name",
+    "Description": "eckoequip.items.Gun_Boomerang.description"
+  },
+  "ItemLevel": 30,
+  "Quality": "Epic",
+  "PlayerAnimationsId": "Sword",
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Leather_Heavy",
+        "Quantity": 3
+      },
+      {
+        "ItemId": "Ingredient_Crystal_Echo",
+        "Quantity": 7
+      },
+      {
+        "ItemId": "Ingredient_Voidheart"
+      }
+    ],
+    "TimeSeconds": 2,
+    "BenchRequirement": [
+      {
+        "Id": "Weapon_Bench",
+        "Categories": [
+          "Weapon_Bows"
+        ],
+        "RequiredTierLevel": 2
+      },
+      {
+        "Id": "Arcanebench",
+        "Categories": [
+          "Arcane_Misc"
+        ]
+      }
+    ]
+  },
+  "MaxDurability": 240,
+  "DurabilityLossOnHit": 0.5,
+  "Weapon": {},
+  "Interactions": {
+    "Primary": {
+      "RequireNewClick": true,
+      "Interactions": [
+        "Boomerang_Throw"
+      ]
+    },
+    "Secondary": "Root_Weapon_Sword_Secondary_Guard"
+  },
+  "Texture": "Items/Gun/Gun_Boomerang_Texture.png",
+  "Model": "Items/Gun/Gun_Boomerang.blockymodel",
+  "Icon": "Icons/ItemsGenerated/Gun_Bommerang.png",
+  "IconProperties": {
+    "Scale": 0.7,
+    "Rotation": [
+      6,
+      96,
+      29
+    ],
+    "Translation": [
+      -8,
+      -8
+    ]
+  }
+}

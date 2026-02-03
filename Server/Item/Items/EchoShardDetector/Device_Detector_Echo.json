@@ -1,0 +1,129 @@
+{
+  "Icon": "Icons/ItemsGenerated/Device_Detector_Echo.png",
+  "IconProperties": {
+    "Scale": 0.9,
+    "Rotation": [
+      344,
+      220,
+      346
+    ],
+    "Translation": [
+      0,
+      -10.5
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "eckoequip.items.Device_Detector_Echo.name",
+    "Description": "eckoequip.items.Device_Detector_Echo.description"
+  },
+  "ItemLevel": 3,
+  "Quality": "Uncommon",
+  "PlayerAnimationsId": "Item",
+  "Model": "Items/EchoDetector/EchoDetector.blockymodel",
+  "Texture": "Items/EchoDetector/EchoDetector_Texture.png",
+  "Recipe": {
+    "TimeSeconds": 1,
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Categories": [
+          "Workbench_Tools"
+        ],
+        "RequiredTierLevel": 3
+      },
+      {
+        "Id": "Arcanebench",
+        "Categories": [
+          "Arcane_Misc"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Bar_Iron",
+        "Quantity": 6
+      },
+      {
+        "ItemId": "Ingredient_Fabric_Scrap_Linen",
+        "Quantity": 2
+      }
+    ]
+  },
+  "Categories": [
+    "Items.Tools"
+  ],
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        "Detector_Ability"
+      ]
+    },
+    "Secondary": {
+      "Interactions": [
+        "Detector_Ability"
+      ]
+    }
+  },
+  "MaxDurability": 82,
+  "Tool": {
+    "DurabilityLossBlockTypes": [
+      {
+        "DurabilityLossOnHit": 0.5,
+        "BlockSets": [
+          "Stone",
+          "Rock",
+          "Ores",
+          "Soil"
+        ]
+      }
+    ],
+    "Specs": [
+      {
+        "GatherType": "Rocks",
+        "Power": 0.03
+      },
+      {
+        "GatherType": "VolcanicRocks",
+        "Power": 0.03
+      },
+      {
+        "GatherType": "OreCopper",
+        "Power": 0.03
+      },
+      {
+        "GatherType": "OreIron",
+        "Power": 0.03
+      },
+      {
+        "GatherType": "OreSilver",
+        "Power": 0.03
+      },
+      {
+        "GatherType": "OreGold",
+        "Power": 0.03
+      },
+      {
+        "GatherType": "OreThorium",
+        "Power": 0.03
+      },
+      {
+        "GatherType": "OreCobalt",
+        "Power": 0.03
+      },
+      {
+        "GatherType": "OreAdamantite",
+        "Power": 0.03
+      },
+      {
+        "GatherType": "OreMithril",
+        "Power": 0.03
+      }
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Tool"
+    ]
+  },
+  "Set": "Tool_Stone"
+}

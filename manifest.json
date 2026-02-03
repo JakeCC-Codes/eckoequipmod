@@ -1,0 +1,20 @@
+{
+  "Group": "JakeCCz",
+  "Name": "EckoEquip",
+  "Version": "1.0.0",
+  "Description": "Adds guns and stuff lol",
+  "Authors": [
+    {
+      "Name": "JakeCCz",
+      "Email": "jakecc.codes@gmail.com",
+      "Url": "https://www.curseforge.com/members/jakeccz/projects"
+    }
+  ],
+  "Website": "https://www.curseforge.com/hytale/mods/ecko-equip",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}

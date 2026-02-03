@@ -1,0 +1,48 @@
+{
+  "Type": "Serial",
+  "Interactions": [
+    {
+      "Type": "Simple",
+      "Effects": {
+        "ItemAnimationId": "SwingLeft",
+        "ItemPlayerAnimationsId": "Sword",
+        "WaitForAnimationToFinish": false
+      },
+      "RunTime": 0.13,
+      "CancelOnItemChange": false
+    },
+    {
+      "Type": "ModifyInventory",
+      "AdjustHeldItemQuantity": -1,
+      "Next": {
+        "Type": "LaunchProjectile",
+        "ProjectileId": "Boomerang_Projectile",
+        "CancelOnItemChange": false
+      },
+      "CancelOnItemChange": false,
+      "RunTime": 0.3
+    },
+    {
+      "Type": "Simple",
+      "RunTime": 2,
+      "Next": {
+        "Type": "ModifyInventory",
+        "ItemToAdd": {
+          "Id": "Gun_Bommerang",
+          "Durability": 240,
+          "MaxDurability": 240,
+          "Quantity": 1
+        },
+        "CancelOnItemChange": false,
+        "Effects": {
+          "ItemAnimationId": "SwingLeft",
+          "ClearAnimationOnFinish": true,
+          "ItemPlayerAnimationsId": "Sword",
+          "WaitForAnimationToFinish": false
+        },
+        "RunTime": 0.125
+      },
+      "CancelOnItemChange": false
+    }
+  ]
+}

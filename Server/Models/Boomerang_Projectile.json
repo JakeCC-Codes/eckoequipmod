@@ -1,0 +1,44 @@
+{
+  "Model": "Items/Projectiles/Projectile.blockymodel",
+  "Texture": "Items/Projectiles/Projectile_default.png",
+  "DefaultAttachments": [
+    {
+      "Model": "Items/Projectiles/Attachments/Gun_Boomerang.blockymodel",
+      "Texture": "Items/Gun/Gun_Boomerang_Texture.png"
+    }
+  ],
+  "HitBox": {
+    "Max": {
+      "X": 0.05,
+      "Y": 0.05,
+      "Z": 0.05
+    },
+    "Min": {
+      "X": -0.05,
+      "Y": -0.05,
+      "Z": -0.05
+    }
+  },
+  "MinScale": 1,
+  "MaxScale": 1,
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "Items/Animations/Spin_Roll/Spin_Roll_Right.blockyanim",
+          "SoundEventId": "SFX_Trork_Throwing_Axe",
+          "Speed": 2
+        }
+      ]
+    }
+  },
+  "Trails": [
+    {
+      "TargetNodeName": "Base",
+      "TrailId": "Sword_Distortion",
+      "RotationOffset": {
+        "Pitch": 90
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+items.Gun_Template.name=Gun Template
+items.Gun_Ecko.name=Ecko Blaster 9000
+
+items.Gun_Sword_Echo.name=Ecko Blade
+items.Gun_Sword_Echo.description=Lands powerful blows that break the sound barrier.
+items.Gun_Boomerang.name=Ecko Boomerang
+items.Gun_Boomerang.description=Similar to an echo, it always comes back.
+
+
+items.Ingredient_Crystal_Echo.name=Echo Shard
+items.Ingredient_Crystal_Echo.description=Where there is slience, noise can still be heard emitting from this mysterious shard.
+
+items.Device_Detector_Echo.name=Echo Shard Detector
+items.Device_Detector_Echo.description=A device which creates an Echo Shockwave on usage. When used near ores, there is a small chance an Echo Shard will drop.
+
+items.Device_Detector_Metal.name=Metal Detector
+items.Device_Detector_Metal.description=A device which uses Echo Shockwaves to detect metal items, such as, shiny coins, metal, and even gold.

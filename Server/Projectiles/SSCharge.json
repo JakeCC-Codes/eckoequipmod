@@ -1,0 +1,34 @@
+{
+  "Appearance": "SSCharge",
+  "Radius": 0.1,
+  "Height": 0,
+  "DepthShot": 0.7,
+  "PitchAdjustShot": false,
+  "SticksVertically": true,
+  "MuzzleVelocity": 30,
+  "TerminalVelocity": 300,
+  "Gravity": 0,
+  "Bounciness": 0,
+  "ImpactSlowdown": 0,
+  "TimeToLive": 50,
+  "Damage": 23,
+  "DeathEffectsOnHit": true,
+  "DeadTimeMiss": 0,
+  "DeathParticles": {
+    "SystemId": "SSCharge_Explosion"
+  },
+  "VerticalCenterShot": 0,
+  "HorizontalCenterShot": 0,
+  "DeathSoundEventId": "SFX_Deployable_Totem_Slowing_Spawn",
+  "ExplosionConfig": {
+    "Knockback": {
+      "Type": "Directional",
+      "Force": -17,
+      "VelocityY": 9
+    },
+    "EntityDamageRadius": 3.6,
+    "EntityDamage": 0,
+    "DamageBlocks": false
+  },
+  "DeadTime": 0
+}

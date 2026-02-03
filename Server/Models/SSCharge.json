@@ -1,0 +1,46 @@
+{
+  "Model": "Items/Projectiles/Projectile.blockymodel",
+  "Texture": "Items/Projectiles/Projectile_default.png",
+  "DefaultAttachments": [
+    {
+      "Model": "Items/Projectiles/Attachments/SSCharge.blockymodel",
+      "Texture": "Items/Projectiles/Attachments/SSCharge.png"
+    }
+  ],
+  "HitBox": {
+    "Max": {
+      "X": 0.4,
+      "Y": 0.4,
+      "Z": 0.25
+    },
+    "Min": {
+      "X": -0.4,
+      "Y": -0.4,
+      "Z": -0.25
+    }
+  },
+  "MinScale": 1,
+  "MaxScale": 1,
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "Items/Animations/Spin_Pitch/Spin_Pitch_Down.blockyanim",
+          "SoundEventId": "SFX_Blunderbuss_Bullet_WhizBy",
+          "Speed": 0.001,
+          "Weight": 0
+        }
+      ]
+    }
+  },
+  "Particles": [
+    {
+      "SystemId": "Gun_Charging",
+      "Scale": 5.4
+    }
+  ],
+  "Light": {
+    "Color": "#098",
+    "Radius": 3
+  }
+}

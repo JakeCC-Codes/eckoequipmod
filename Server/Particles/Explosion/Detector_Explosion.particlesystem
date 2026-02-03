@@ -1,0 +1,14 @@
+{
+  "Spawners": [
+    {
+      "SpawnerId": "BExplosion_Big_Shockwave_Ground",
+      "PositionOffset": {
+        "X": 0.0,
+        "Z": 0.0
+      }
+    }
+  ],
+  "BoundingRadius": 100.0,
+  "CullDistance": 100.0,
+  "IsImportant": false
+}

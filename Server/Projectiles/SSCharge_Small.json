@@ -1,0 +1,36 @@
+{
+  "Appearance": "SSCharge_Small",
+  "Radius": 0.1,
+  "Height": 0,
+  "DepthShot": 0.7,
+  "PitchAdjustShot": false,
+  "SticksVertically": true,
+  "MuzzleVelocity": 70,
+  "TerminalVelocity": 300,
+  "Gravity": 0,
+  "Bounciness": 0,
+  "ImpactSlowdown": 0,
+  "TimeToLive": 50,
+  "Damage": 29,
+  "DeathEffectsOnHit": true,
+  "DeadTime": 0,
+  "DeadTimeMiss": 0,
+  "DeathParticles": {
+    "SystemId": "Boomerang_Bounce",
+    "Scale": 0.3
+  },
+  "VerticalCenterShot": 0,
+  "HorizontalCenterShot": 0,
+  "DeathSoundEventId": "SFX_GunPvP_Assault_Rifle_Bullet_Death",
+  "ExplosionConfig": {
+    "Knockback": {
+      "Type": "Directional",
+      "Force": -2,
+      "VelocityY": 1
+    },
+    "EntityDamageRadius": 2,
+    "EntityDamage": 0,
+    "DamageBlocks": true,
+    "BlockDamageRadius": 1
+  }
+}

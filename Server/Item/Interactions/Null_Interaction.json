@@ -1,0 +1,21 @@
+{
+  "Type": "Simple",
+  "Effects": {
+    "ClearAnimationOnFinish": true,
+    "ClearSoundEventOnFinish": true,
+    "Particles": [
+      {
+        "SystemId": "SSCharge_Shooting",
+        "PositionOffset": {
+          "Z": 0.85,
+          "Y": 0.15
+        },
+        "RotationOffset": {
+          "Pitch": 90
+        },
+        "Scale": 0.001
+      }
+    ],
+    "ItemAnimationId": "Shoot"
+  }
+}

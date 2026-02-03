@@ -1,0 +1,60 @@
+{
+  "Type": "Charging",
+  "HorizontalSpeedMultiplier": 0.73,
+  "AllowIndefiniteHold": true,
+  "Next": {
+    "0.7": {
+      "Type": "LaunchProjectile",
+      "ProjectileId": "SSCharge",
+      "Effects": {
+        "CameraEffect": "Sword_Swing_Vertical",
+        "ItemAnimationId": "Shoot",
+        "Particles": [
+          {
+            "SystemId": "SSCharge_Shooting",
+            "PositionOffset": {
+              "Z": 0.85,
+              "Y": 0.15
+            },
+            "RotationOffset": {
+              "Pitch": 90
+            },
+            "Scale": 1.2
+          }
+        ]
+      },
+      "RunTime": 0.3
+    },
+    "0.0": "Null_Interaction",
+    "0.1": "Null_Interaction",
+    "0.2": "Null_Interaction",
+    "0.3": "Null_Interaction",
+    "0.4": "Null_Interaction",
+    "0.5": "Null_Interaction",
+    "0.6": "Null_Interaction"
+  },
+  "Effects": {
+    "LocalSoundEventId": "SFX_Flail_Charge_Local",
+    "Particles": [
+      {
+        "SystemId": "Gun_Charging",
+        "Scale": 0.5,
+        "PositionOffset": {
+          "Y": 0.5,
+          "Z": 0,
+          "X": -0.65
+        },
+        "RotationOffset": {
+          "Yaw": 0,
+          "Roll": 60
+        },
+        "TargetNodeName": "Handle"
+      }
+    ],
+    "ClearAnimationOnFinish": true,
+    "ClearSoundEventOnFinish": true,
+    "WorldSoundEventId": "SFX_Flail_Charge"
+  },
+  "DisplayProgress": false,
+  "CancelOnItemChange": true
+}
